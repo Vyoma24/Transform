@@ -12,7 +12,7 @@ vignette: >
 Loading packages for transforming the categorical Fin Tech data into usable format
 1. Import the data 
 ```{r}
-Data <- read.csv("C:/Users/vyoma/Desktop/Data.csv", header=TRUE)
+Data <- read.csv("Data.csv", header=TRUE)
 ```
  2. Normalize age and amount between particular values
 ```{r}
